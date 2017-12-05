@@ -33,6 +33,10 @@
 #endif
 #include <string.h>
 
+// which serial port to use
+// TODO: add Stream &referencedport to init in .cpp
+#define SerialPort Serial
+
 // Size of the input buffer in bytes (maximum length of one command plus arguments)
 #define SERIALCOMMAND_BUFFER 32
 // Maximum length of a command excluding the terminating null
